@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--col-base);
+  font-family: var(--ffam-base);
+  font-size: var(--fsiz-base);
+  margin: 0;
+}
+
+button {
+  background: var(--col-accent);
+  border: 1px solid var(--col-lt-gray);
+  border-radius: 2rem;
+  color: var(--col-lt-gray);
+  font-size: calc(1.5 * var(--fsiz-base));
+  padding: 0.75rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ffam-base);
+}
+
+h1 {
+  font-family: var(--ffam-title);
+  font-size: calc(2 * var(--fsiz-base));
+  line-height: 1.5 * 2rem;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: calc(1.75 * var(--fsiz-base));
+  line-height: 1.5 * 1.75rem;
+}
+
+h3 {
+  font-size: calc(1.25 * var(--fsiz-base));
+  line-height: 1.5 * 1.25rem;
+  margin: 0.25rem;
+}

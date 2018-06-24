@@ -1,0 +1,75 @@
+.app-header {
+  background: var(--col-accent);
+  border-bottom: 0.5rem dashed var(--col-base);
+  color: var(--col-lt-gray);
+  display: grid;
+  font-family: var(--ffam-title);
+  padding: 0.25rem;
+  place-items: left center;
+  width: 100%;
+}
+
+.logo-main {
+  max-width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-header {
+    place-items: center center;
+  }
+
+  .logo-main {
+    margin: 0.5rem;
+    max-width: 20%;
+  }
+}
+
+/* GRID LAYOUTS */
+.display-grid {
+  display: grid;
+  grid-gap: 7px;
+  grid-template-columns: 3fr 1fr;
+  margin: 1rem 0;
+}
+
+.dice-grid {
+  display: grid;
+  grid-gap: 7px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30% 30% 30%;
+}
+
+.dice-grid-modifiers {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: auto 1fr 1fr 1fr;
+}
+
+.result-grid {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 20% 80%;
+  margin: 0.5rem 0;
+  place-items: center center;
+}
+
+.grid-column-2x {
+  grid-column: span 2;
+}
+
+.grid-column-all {
+  grid-column: span 3;
+}
+
+.grid-top {
+  grid-row: 1;
+}
+
+.grid-row-2x {
+  grid-row: 1/3;
+}
+
+.grid-bottom {
+  grid-row: 2;
+}

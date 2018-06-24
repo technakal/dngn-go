@@ -1,0 +1,15 @@
+{
+  "short_name": "DnD GO!",
+  "name": "DnD GO! DM Tools",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#fb3453",
+  "background_color": "#30e8bd"
+}

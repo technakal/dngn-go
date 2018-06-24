@@ -1,0 +1,44 @@
+.content-panel {
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .content-panel {
+    width: 90%;
+  }
+}
+
+.title-style {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.more-info {
+  background: #00c79b;
+  border-radius: 0.25rem;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+/* INITIATIVE PANEL */
+.init-panel-row,
+.init-panel-header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  text-align: center;
+}
+
+.init-panel-row {
+  background: var(--col-lt-gray);
+  border: 1px solid var(--col-dk-gray);
+  border-radius: 2rem;
+}
+
+/* UTILITIES */
+.border {
+  border: 2px solid black;
+}

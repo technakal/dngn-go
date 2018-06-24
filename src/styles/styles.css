@@ -1,0 +1,80 @@
+/* LAYOUT STYLES */
+
+.init-panel-row,
+.init-panel-header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  text-align: center;
+}
+
+.init-panel-row {
+  background: var(--col-lt-gray);
+  border: 1px solid var(--col-dk-gray);
+  border-radius: 2rem;
+}
+
+/* FORM STYLES */
+
+.roll {
+  margin: 1rem 0;
+}
+
+.reset {
+  background: var(--col-bonus);
+  color: var(--col-dk-gray);
+}
+
+.dice-modifier-label {
+  align-self: center;
+  color: var(--col-dk-gray);
+  font-family: var(--ffam-base);
+  margin: 0;
+  padding: 0 0.5rem;
+  text-align: right;
+}
+
+.modifier-display {
+  align-items: center;
+  display: flex;
+  font-family: var(--ffam-base);
+  font-size: calc(1.75 * var(--fsiz-base));
+  justify-content: center;
+  text-align: center;
+}
+
+.roll-display {
+  background: var(--col-lt-gray);
+  border: 1px solid var(--col-dk-gray);
+  border-radius: 0.5rem;
+  font-size: var(--fsiz-base);
+  margin: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+
+.init-input {
+  background: var(--col-lt-gray);
+  border: 1px solid var(--col-dk-gray);
+  border-radius: 0.5rem;
+  font-size: var(--fsiz-base);
+  padding: 0.75rem 1rem;
+}
+/* FONT STYLES */
+
+.title-style {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.more-info {
+  background: #00c79b;
+  border-radius: 0.25rem;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+/* UTILITIES */
+.border {
+  border: 2px solid black;
+}

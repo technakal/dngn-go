@@ -1,0 +1,8 @@
+button:hover {
+  background: var(--col-dk-gray);
+  transition: all 0.3s ease;
+}
+
+button:active {
+  border-radius: 2rem;
+}
